@@ -1,6 +1,6 @@
 # Respuestas Evaluacion 2 Introduccion a Tecnologias de Informacion
 --- 
-## Nombres: Jose Ricardo Guerrero Gamez  y Andres Cardenas
+## Nombres: Jose Ricardo Guerrero Gamez  Andres Cardenas  Sebastian Tombe  Felipe Romero
 ---
 **## Introducción a Tecnologías de Información**
 
