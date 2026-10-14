@@ -122,4 +122,88 @@
 
 ---
 
-## Preg
+## Pregunta 15
+
+*Respuesta correcta:* C. Pin digital 9.
+
+*Justificación:* En la estructura de hardware del Arduino UNO R3, los pines habilitados con capacidad de salida PWM mediante circuitería interna están debidamente identificados, siendo el pin 9 uno de ellos.
+
+---
+
+## Pregunta 16
+
+*Respuesta correcta:* D. Porque la demanda de la bobina excede la capacidad de corriente que soporta el pin.
+
+*Justificación:* La corriente máxima que soporta de forma segura un pin de E/S del microcontrolador es limitada. Puesto que la bobina demanda una intensidad superior, se requiere un transistor de interfaz para proteger la placa.
+
+---
+
+## Pregunta 17
+
+*Respuesta correcta:* B. Solo la declaración 2 es verdadera.
+
+*Justificación:* El relé proporciona un aislamiento galvánico que separa lógicamente el control de la potencia, haciendo falsa la primera afirmación. La segunda es correcta porque el diodo limita los picos inductivos.
+
+---
+
+## Pregunta 18
+
+*Respuesta correcta:* A. Los cierres y aperturas repetidos del relé cuando la señal fluctúa alrededor de un único valor.
+
+*Justificación:* Implementar dos umbrales de conmutación diferenciados introduce histéresis en el sistema. Esto evita el parpadeo o traqueteo constante del relé cuando la señal del sensor experimenta pequeñas oscilaciones.
+
+---
+
+## Pregunta 19
+
+*Respuesta correcta:* D. El pin 2 lee nivel LOW y el sketch activa el buzzer con la función tone().
+
+*Justificación:* Al abrirse la puerta se interrumpe la alimentación directa de cinco voltios y la resistencia pull-down tira del pin hacia tierra. Esta transición a nivel bajo es interpretada por el programa para activar la alarma.
+
+---
+
+## Pregunta 20
+
+*Respuesta correcta:* B. La afirmación es verdadera, mientras que la razón es una proposición falsa.
+
+*Justificación:* La función tone genera ondas cuadradas oscilantes para frecuencias audibles en el buzzer pasivo, lo que desmiente que mantenga un nivel alto estático continuo hasta la ejecución de la desactivación.
+
+---
+
+## Pregunta 21
+
+*Respuesta correcta:* A. Disminuye porque la LDR aumenta su resistencia y la resistencia fija recibe menos tensión.
+
+*Justificación:* Al reducirse la iluminación ambiental, la fotorresistencia incrementa su resistencia óhmica. Esto provoca una mayor caída de tensión en la LDR y reduce el voltaje proporcional que percibe el pin analógico.
+
+---
+
+## Pregunta 22
+
+*Respuesta correcta:* A. 2 LEDs.
+
+*Justificación:* La función de mapeo convierte proporcionalmente la lectura analógica al rango de salida de los LEDs. Al truncar los decimales resultantes de la operación matemática entera, se determina la cantidad exacta encendida.
+
+---
+
+## Pregunta 23
+
+*Respuesta correcta:* C. II, I, III, IV.
+
+*Justificación:* Por normativas de seguridad vial y control secuencial, el sistema de tráfico debe transicionar primero a luz amarilla de advertencia, detenerse en rojo, habilitar el paso peatonal y luego reiniciar el ciclo.
+
+---
+
+## Pregunta 24
+
+*Respuesta correcta:* B. La placa se reinicia al abrirse el puerto serie y tarda unos segundos en iniciar el sketch.
+
+*Justificación:* Por diseño físico en las placas basadas en microcontroladores AVR con interfaz USB, abrir una conexión serial activa un mecanismo de auto-reset que reinicia la ejecución, demorando la recepción inicial.
+
+---
+
+## Pregunta 25
+
+*Respuesta correcta:* D. Ejecutar core update-index y core install con el paquete arduino:avr.
+
+*Justificación:* Las instalaciones limpias de la interfaz de comandos carecen de paquetes de arquitectura preconfigurados. Es necesario actualizar los índices y descargar explícitamente el soporte de hardware mediante los comandos de núcleo.
